@@ -10,20 +10,20 @@ Create an account at http://openshift.redhat.com/ , don't forget to create a nam
 
 Create a DIY application
 
-    rhc app create -a tomcat -t diy-0.1
+    rhc app create -a tomcatj -t diy-0.1
 
-Get Tomcat running
+Get Tomcat+Jersey running
 ----------------------------
 Grab this quickstart codes and make it working for you!
 
     cd tomcat
-    git remote add upstream -m master git://github.com/openshift/openshift-tomcat-quickstart.git
+    git remote add upstream -m master git://github.com/openshift/jersey-tc-quickstart.git
     git pull -s recursive -X theirs upstream master
     git push
 
 That's it, you can now checkout your tomcat at:
 
-    http://tomcat-$yournamespace.rhcloud.com
+    http://tomcatj-$yournamespace.rhcloud.com
 
 The default managing account is tomcat/openshift
 
