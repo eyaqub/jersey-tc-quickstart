@@ -17,7 +17,7 @@ Get Tomcat+Jersey running
 Grab this quickstart codes and make it working for you!
 
     cd tomcatj
-    git remote add upstream -m master git://github.com/openshift/jersey-tc-quickstart.git
+    git remote add upstream -m master git://github.com/eyaqub/jersey-tc-quickstart.git
     git pull -s recursive -X theirs upstream master
     git push
 
